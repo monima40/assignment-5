@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+@Layer base {
+
+    html {
+        scroll-behavior: smooth;
+    }
+    body{
+        min-width: 320px;
+        font-family: var(--font-hero);
+
+
+    }
+}
