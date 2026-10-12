@@ -1,14 +1,17 @@
-import Navbar from "./components/shared/Navbar"
-import Footer from "./components/shared/Footer"
-import HeroSection from "./components/shared/HeroSection"
+import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
+import HeroSection from "./components/HeroSection"
 
 const App = () =>{
-  return <div>
+  return  (
+     <> 
+     <div>
     <Navbar />
     <HeroSection></HeroSection>
-    <main></main>
+     <main></main>
     <Footer/>
-  </div>
+    </div>
+  </>)
  }
 
  export default App

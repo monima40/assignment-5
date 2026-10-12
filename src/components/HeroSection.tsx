@@ -1,6 +1,6 @@
 
 
-import banner from '../../assets/banner-stack.png'
+import banner from '../assets/banner-stack.png'
 
  const HeroSection = () => {
 
