@@ -8,7 +8,7 @@ const Navbar =() =>{
 
     return (
         <nav className =" bg-white border-b border-[#e1e4e6] sticky top-0 z-50 ">
-             <div className=" container  relative mx-auto  px-4 md:px-0 flex justify-between items-center h-20  text-[#475569]  ">
+             <div className=" container  relative mx-auto  px-4 md:px-0 flex justify-between items-center   h-15 md:h-20  text-[#475569]  ">
                <div onClick={() => setIsMenuOpen(!isMenuOpen)} className ="cursor-pointer md:hidden">
                 {isMenuOpen?<RxCross1/>:<RxHamburgerMenu/>}
                    {
