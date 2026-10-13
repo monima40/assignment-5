@@ -6,7 +6,7 @@ import banner from '../assets/banner-stack.png'
 
 
      return (
-         <section className =" container mx-auto grid md:grid-cols-5 gap-4 min-h-screen  py-6 md:py-10  mt-6 md:mt-10 px-4">
+         <section className ="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-4 min-h-[calc(100vh-60px)] md:min-h-[calc(100vh-80px)] items-center px-4 md:px-0 py-8 md:py-10 mt-0">
 
             {/* content */}
             
