@@ -14,7 +14,7 @@ const Navbar =() =>{
                    {
           isMenuOpen && (
           <ul className="flex flex-col gap-5 absolute top-20 left-0 w-full bg-white p-5 shadow-md md:hidden">
-          <li className="text-[#DB2777]"><a href="#">Home</a></li>
+          <li className="hover"><a href="#">Home</a></li>
            <li><a href="#technology" >Technologies</a></li>
            <li><a href="#">Projects</a></li>
            <li><a href="#">About</a></li>
@@ -40,7 +40,7 @@ const Navbar =() =>{
                <div className="flex justify-center items-center gap-5">
             
                 <a href="#">Sign In</a>
-                <button className="border rounded-full  w-auto  px-2 py-1 border-solid bg-linear-to-r from-[#d91b7e] to-[#7C3AED] shadow-[0px_1px_2px_0px_#fbcfe8] text-white  transition hover:-translate-y-1  "> <a href="#">Sign Up</a></button>
+                <button className="border rounded-full  w-auto  px-2 py-1 border-solid btn_clr shadow-[0px_1px_2px_0px_#fbcfe8] text-white  transition hover:-translate-y-1  "> <a href="#">Sign Up</a></button>
             
                </div>
            

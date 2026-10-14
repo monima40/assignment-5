@@ -4,6 +4,12 @@
     color: #DB2777;
     transition: color 150ms;
 }
+.gradient_text {
+    @apply bg-linear-to-r from-[#FF5722] via-[#D81B7E] to-[#7C3AED] bg-clip-text text-transparent;
+}
+.btn_clr{
+ @apply   bg-linear-to-r from-[#eb6942] to-[#e93793];
+}
 
 @Layer base {
 

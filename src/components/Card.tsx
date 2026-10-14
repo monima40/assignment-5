@@ -9,7 +9,7 @@ type CardProps = {
 
 const Card = ({ issue, isAdded,onAdd, onRemove,}: CardProps) => {
   return (
-      <div className="rounded-2xl border border-slate-100 bg-white p-5 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+      <div className="flex h-full flex-col rounded-2xl border border-slate-100 bg-white p-5 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
 
       {/* Icon and Badge */}
        <div className="mb-5 flex items-center justify-between">
@@ -39,7 +39,7 @@ const Card = ({ issue, isAdded,onAdd, onRemove,}: CardProps) => {
                {issue.category}
             </span>
 
-           <span className="text-xs text-slate-500">{issue.difficulty} </span>
+           <span className="whitespace-nowrap  text-xs text-slate-500">{issue.difficulty} </span>
 
             <span className="flex items-center gap-1 text-sm font-semibold text-slate-700">
             <span className="text-amber-400">★</span>
@@ -49,7 +49,7 @@ const Card = ({ issue, isAdded,onAdd, onRemove,}: CardProps) => {
          {/* Button */}
           <button type="button" disabled={isAdded}
              onClick={() => isAdded ? onRemove(issue.id) : onAdd(issue) }
-             className="w-full rounded-lg bg-slate-950 px-4 py-3 text-sm font-medium text-white disabled:cursor-not-allowed disabled:opacity-70" >
+             className=" mt-auto w-full rounded-lg bg-slate-950 px-4 py-3 text-sm font-medium text-white disabled:cursor-not-allowed disabled:opacity-70" >
              {isAdded ? "✓ Added to Stack" : "Add to Stack"}
           </button>
 
