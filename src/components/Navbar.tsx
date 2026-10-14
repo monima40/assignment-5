@@ -15,7 +15,7 @@ const Navbar =() =>{
           isMenuOpen && (
           <ul className="flex flex-col gap-5 absolute top-20 left-0 w-full bg-white p-5 shadow-md md:hidden">
           <li className="text-[#DB2777]"><a href="#">Home</a></li>
-           <li><a href="#">Technologies</a></li>
+           <li><a href="#technology" >Technologies</a></li>
            <li><a href="#">Projects</a></li>
            <li><a href="#">About</a></li>
            <li><a href="#">Contact</a></li>
@@ -31,7 +31,7 @@ const Navbar =() =>{
        
              <ul className ='hidden md:flex  justify-center items-center gap-5' >
                 <li className="text-[#DB2777]"><a href="#">Home</a></li>
-                <li ><a href="#">Technologies</a></li>
+                <li ><a href="#technology">Technologies</a></li>
                 <li><a href="#">Projects</a></li>
                 <li> <a href="#">About</a></li>
                 <li> <a href="#">Contact</a></li>

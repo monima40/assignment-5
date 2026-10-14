@@ -22,7 +22,7 @@ const Footer = () => {
 
             <ul className="flex items-center justify-center gap-6 text-base  md:font-medium text-gray-600 md:text-gray-700 md:justify-start">
               <li>
-                <a href="#" className='hover'>
+                <a href="https://github.com/" target="_blank" className='hover'>
                   GitHub
                 </a>
               </li>
@@ -30,7 +30,7 @@ const Footer = () => {
                  <span>•</span>
                 </li>
               <li>
-                <a href="#" className='hover'>
+                <a href="https://x.com/" target="_blank" className='hover'>
                   Twitter
                 </a>
               </li>
@@ -39,7 +39,7 @@ const Footer = () => {
               </li>
 
               <li>
-                <a href="#" className='hover'>
+                <a href="https://www.linkedin.com/" target="_blank" className='hover'>
                   LinkedIn
                 </a>
               </li>
@@ -60,7 +60,7 @@ const Footer = () => {
               </li>
 
               <li>
-                <a href="#" className='hover'>
+                <a href="#technology" className='hover'>
                   Technologies
                 </a>
               </li>
