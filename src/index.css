@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+.hover:hover {
+    color: #DB2777;
+    transition: color 150ms;
+}
 
 @Layer base {
 

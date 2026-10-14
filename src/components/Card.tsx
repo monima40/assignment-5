@@ -56,7 +56,7 @@ const Card = ({ issue, isAdded,onAdd, onRemove,}: CardProps) => {
    
 
     </div>
-  );
+  )
 };
 
 export default Card;

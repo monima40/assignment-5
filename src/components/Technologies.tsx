@@ -24,7 +24,7 @@ const Technologies = ({ dataPromise }: { dataPromise: Promise<Type[]> }) => {
            
 
         </div>
-    );
+    )
 };
 
 export default Technologies;

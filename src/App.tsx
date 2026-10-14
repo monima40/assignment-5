@@ -20,7 +20,7 @@ const App = () =>{
      <main>
    
 
-    <Suspense fallback={<Loading/>}>
+     <Suspense fallback={<Loading/>}>
       <Technologies dataPromise = {dataPromise()}/>
 
     </Suspense>

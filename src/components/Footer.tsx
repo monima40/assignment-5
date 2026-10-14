@@ -1,6 +1,14 @@
-const Footer = () =>{
 
-    return <div></div>
-}
+//import logo from '../assets/logo-text.png';
 
-export default Footer
+const Footer = () => {
+  return (<>
+
+  
+  
+  </>
+   
+  )
+};
+
+export default Footer;

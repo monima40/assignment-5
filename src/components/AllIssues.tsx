@@ -61,7 +61,7 @@ const AllIssues = ({ allIssues,completedIssues,setCompletedIssues }: AllIssuesPr
                   onRemoveAll={handleRemoveAll} />
                </div>
            
-          </div>;
+          </div>
 
     
       </>
